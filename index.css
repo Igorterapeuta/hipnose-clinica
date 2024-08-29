@@ -1,0 +1,277 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    border:#3441A8 solid 7px;
+    background-color: white;
+
+    margin: 0 auto;
+}
+
+.icon {
+    width: 60px; /* Ajuste o tamanho conforme necessário */
+    height: 60px;
+    vertical-align: middle;
+}
+ .box1 {
+    border: black 1px;
+   font-size: larger;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    list-style-type: none;
+    line-height: 60px;
+    background-color: #eee;
+    margin-bottom: 5px;
+
+    
+ }
+.box2 {
+    border: black 1px;
+   font-size: larger;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    background-color: #eee;
+    margin-bottom: -3rem;
+}
+
+ .icon2 {
+    width: 35px; /* Ajuste o tamanho conforme necessário */
+    height: 35px;
+    vertical-align: middle;
+    border-right: 10rem;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 2px;
+ }
+
+.icon3 {
+    width: 35px; /* Ajuste o tamanho conforme necessário */
+    height: 35px;
+    vertical-align: middle;
+    border-right: 10rem;
+    margin-right: 15px;
+    margin-top: 13px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('fundo.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover;   /* Faz com que a imagem cubra toda a página */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Faz com que a imagem fique fixa durante o scroll */
+}
+
+header {
+    
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;   
+   
+}
+
+section {
+    padding: 2rem;
+}
+
+h1, h2, p {
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    color: #eee;
+    font-size: large;
+}
+
+.navegador {
+    color: #eee;
+    font-size: large;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+   
+}
+
+.faq-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    background-color:#00008b;
+    color: white;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.faq-question:hover {
+    background-color:#00008b;
+}
+
+.arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer {
+    padding: 15px;
+    background-color:#00008b;
+    color: white;
+    display: none; /* Inicialmente escondida */
+}
+
+.faq-answer p {
+    margin: 0;
+}
+
+/* Estilo para a seta interativa */
+.rotate {
+    transform: rotate(180deg);
+}
+
+.text {
+    color: white;
+}
+
+.botao-wpp {
+    text-decoration: none;
+    color: #eee;
+    display: inline-block;
+    background-color: #25d366;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    width: 100%;
+    font-size: 20px;
+    border-radius: 30px;
+  }
+  
+  .botao-wpp:hover {
+    background-color: darken(#25d366, 5%);
+  }
+  
+  .botao-wpp:focus {
+    background-color: darken(#25d366, 15%);
+  }
+  
+  .content {
+    width: 50%;
+    max-width: 120px;
+    padding: 10rem;
+}
+
+.carousel {
+    position: relative;
+    max-width: 35%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%; 
+    width: 200px;
+    height: 500px;/* Cada imagem ocupa 100% da largura do contêiner */
+    margin-bottom: -4rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+@media (max-width: 600px) {
+    .box {
+        flex: 1 1 100%; /* As caixas ocupam 100% da largura da tela */
+    }
+}
